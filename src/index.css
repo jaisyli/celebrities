@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+.App-header {
+    background-color: #8ca9e2;
+    color: rgb(54, 184, 72);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el encabezado */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  .menu-item {
+    color: rgb(218, 20, 73);
+    padding: 10px 20px; /* Padding más grande */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Transición suave */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  .menu-item:hover {
+    background-color: #d8e42d;
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el cursor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra al pasar el cursor */
+  }
+  
+  /* Estilo para botones de Bootstrap */
+  .btn-orange {
+    background-color: #e390ee;
+    color: rgb(213, 208, 208);
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .btn-orange:hover {
+    background-color: #de8bc9;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
