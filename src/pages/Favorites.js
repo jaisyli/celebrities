@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
+
 export const Favorites = () => {
     const dispatch = useDispatch();
     const { celebrities_List } = useSelector(state => state.cel);

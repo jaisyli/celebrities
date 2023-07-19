@@ -3,6 +3,7 @@ import React, { Fragment, useState } from 'react'
 import Celebrities_List from './Celebrities_List';
 import Home from '../pages/Home'
 
+
 const SearchBar = () => {
 
 const [celData, setCelData] = useState();

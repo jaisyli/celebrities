@@ -5,6 +5,7 @@ import { Logout} from './auth/Logout';
 import { Link,Route,Routes } from 'react-router-dom';
 import { Favorites } from './pages/Favorites';
 import SearchBar from './components/SearchBar';
+import "./index.css";
 
 
 function App() {
