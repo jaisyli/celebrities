@@ -26,6 +26,6 @@ useEffect(() => {
     return <div> Cargando...</div>;
   }
 
-  return <button onClick={handleLogin}> Acceder </button>;
+  return <button type="button" className="btn btn-primary btn-lg"onClick={handleLogin}> Acceder </button>;
 
 };

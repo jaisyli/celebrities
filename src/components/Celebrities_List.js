@@ -20,15 +20,15 @@ function handleAdd (celid){
 
 
     return (
-        <div>
-            <div> Celebrities_List </div>
+        <div >
+            <div className="card"> Celebrities_List </div>
             <div> {celebrities.map(c => {
                 return (
-                    <div>
-                        <h4>{c.name}</h4>
-                        <h2>{c.age}</h2>
+                    <div className="card-body">
+                        <h4 className="card-title">{c.name}</h4>
+                        <h2 className="card-title">{c.age}</h2>
                        <div> {c.occupation} </div>
-                       <button onClick={()=> handleAdd (c.birthday)}> Agregar a Celebridades Favoritas </button>
+                       <button class="btn btn-primary" type="button" onClick={()=> handleAdd (c.birthday)}> Agregar a Celebridades Favoritas </button>
                     </div>)
             }
 
