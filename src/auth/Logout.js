@@ -6,7 +6,7 @@ export const Logout = () => {
   const { logout } = useAuth0();
 
   return (
-    <button onClick={() => logout({ returnTo: window.location.origin })}>
+    <button type="button" className="btn btn-primary btn-lg" onClick={() => logout({ returnTo: window.location.origin })}>
       Cerrar sesión
     </button>
   );

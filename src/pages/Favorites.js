@@ -8,8 +8,8 @@ export const Favorites = () => {
     return (
         <Fragment>
             <div className='container'>Listado de Favoritos</div>
-            <table>
-                <thead>
+            <table className='table'>
+                <thead className='table-dark'>
                     <tr>                       <th scope='col'> ID </th>
                         <th scope='col'> Nombre </th>
                         <th scope='col'> Nacionalidad </th>
