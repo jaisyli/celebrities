@@ -1,38 +1,36 @@
-.App-header {
-    background-color: #8ca9e2;
-    color: rgb(54, 184, 72);
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el encabezado */
-    border-radius: 5px; /* Bordes redondeados */
-  }
-  
-  .menu-item {
-    color: rgb(218, 20, 73);
-    padding: 10px 20px; /* Padding más grande */
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s; /* Transición suave */
-    border-radius: 5px; /* Bordes redondeados */
-  }
-  
-  .menu-item:hover {
-    background-color: #d8e42d;
-    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el cursor */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra al pasar el cursor */
-  }
-  
-  /* Estilo para botones de Bootstrap */
-  .btn-orange {
-    background-color: #e390ee;
-    color: rgb(213, 208, 208);
-    border: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s, transform 0.3s;
-  }
-  
-  .btn-orange:hover {
-    background-color: #de8bc9;
-    transform: scale(1.05);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  }
+img {
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: center;
+  width: 50%;
+  text-align: center;
+  font-size: 24px;
+  padding: 30px;
+  opacity: 0,5;
+  float: right
 
+}
+
+.App-header {
+ background-image:url("https://cdn.pixabay.com/photo/2017/07/21/23/57/concert-2527495_1280.jpg");
+ padding: 60px; 
+ text-align: left;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el encabezado */
+ border-radius: 2px; /* Bordes redondeados */
+}
+.menu-item {
+ color: rgb(6, 6, 2);
+ background-color: #ecd7eb;
+ padding: 10px 20px; /* Padding más grande */
+ cursor: pointer;
+ transition: background-color 0.3s, transform 0.3s; /* Transición suave */
+ border-radius: 2px; /* Bordes redondeados */
+
+}
+/* Estilo para botones de Bootstrap */
+.btn-encabezado {
+ background-color: #2b325359;
+ border: none;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ transition: background-color 0.3s, transform 0.3s;
+}
