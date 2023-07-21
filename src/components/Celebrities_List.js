@@ -16,7 +16,7 @@ function handleAdd (celid){
    } 
    console.log(celebrity);
 }
-//Pendiente Botón en el return para agregar al redux, generar un handle para disparar el dispatch
+
 
 
     return (
