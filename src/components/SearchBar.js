@@ -26,11 +26,11 @@ function handleChange(e){
  }   
  return (
     <Fragment>
-    <div>
-        <nav>
-            <div className="search">
-                <input type="text" onChange={handleChange}></input>
-                <button className="search-btn" onClick={getCelData}>Buscar</button>
+    <div >
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <input className="form-control mr-sm-2"  placeholder="Search" aria-label="Search" type ="text" onChange={handleChange}></input>
+                <button className="search-btn" onClick={getCelData}> Buscar </button>
             </div>
            
         </nav>
